@@ -12,8 +12,9 @@ section {
 }
 
 section:nth-child(even){
-  background-color: aliceblue;
+  background-color:antiquewhite;
   justify-content: flex-end;
+  color: #000;
 }
 .t-wrap h2{
   font-size: 5rem;

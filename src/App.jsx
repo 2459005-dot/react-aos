@@ -8,10 +8,10 @@ function App() {
 
   return (
       <div>
-        <Hero/>
-        <Aboutme/>
-        <Contact/>
-        <Skill/>
+        <Hero />
+        <Aboutme />
+        <Contact />
+        <Skill />
       </div>
   )
 }

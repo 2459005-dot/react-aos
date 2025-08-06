@@ -1,6 +1,12 @@
 import React from 'react'
+import './style/Contact.css'
 
 const Contact = () => {
+  const contactList = [
+  { type: "Email", value: "yourname@example.com" },
+  { type: "Phone", value: "010-1234-5678" },
+  { type: "GitHub", value: "github.com/yourname" }
+];
   return (
     <section>
         <div className='t-wrap'>
