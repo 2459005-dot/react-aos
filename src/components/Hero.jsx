@@ -6,7 +6,9 @@ const Hero = () => {
     <section className='Hero'>
         <div className='t-wrap'>
             <h2>Hero title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sint, earum</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, perspiciatis.
+            </p>
         </div>
     </section>
 )
