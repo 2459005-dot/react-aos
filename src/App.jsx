@@ -5,7 +5,6 @@ import Contact from './components/Contact'
 import Aboutme from './components/Aboutme'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <div>

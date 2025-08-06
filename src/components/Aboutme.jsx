@@ -2,7 +2,12 @@ import React from 'react'
 
 const Aboutme = () => {
   return (
-    <div>Aboutme</div>
+    <section>
+        <div className='t-wrap'>
+            <h2>Aboutme title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sint, earum</p>
+        </div>
+    </section>
   )
 }
 

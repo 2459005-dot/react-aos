@@ -1,9 +1,14 @@
 import React from 'react'
 
-const skill = () => {
+const Skill = () => {
   return (
-    <div>skill</div>
+    <section>
+        <div className='t-wrap'>
+            <h2>Skill title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sint, earum</p>
+        </div>
+    </section>
   )
 }
 
-export default skill
+export default Skill

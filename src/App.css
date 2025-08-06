@@ -6,4 +6,19 @@
 
 section {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+section:nth-child(even){
+  background-color: aliceblue;
+  justify-content: flex-end;
+}
+.t-wrap h2{
+  font-size: 5rem;
+  line-height: 1;
+}
+.t-wrap p{
+  max-width: 50%;
 }
