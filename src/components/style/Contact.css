@@ -1,0 +1,26 @@
+section.Contact{
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.t-wrap p{
+    max-width: none;
+}
+
+.contact-list{
+    display: flex;
+    gap: 30px;
+}
+
+.contact-list li{
+    background-color: bisque;
+    padding: 100px 50px;
+    color: #000;
+    font-size: 30px;
+}
+
+.contact-list li *{
+    display: block;
+}

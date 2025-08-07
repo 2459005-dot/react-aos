@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 section {
   height: 100vh;
   display: flex;
@@ -11,15 +15,17 @@ section {
   padding: 0 50px;
 }
 
-section:nth-child(even){
-  background-color:antiquewhite;
+section:nth-child(even) {
+  background-color: antiquewhite;
   justify-content: flex-end;
   color: #000;
 }
-.t-wrap h2{
+
+.t-wrap h2 {
   font-size: 5rem;
   line-height: 1;
 }
-.t-wrap p{
+
+.t-wrap p {
   max-width: 50%;
 }

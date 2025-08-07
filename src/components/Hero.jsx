@@ -8,9 +8,11 @@ const Hero = () => {
     useEffect(() => {
         AOS.init({
             duration: 1000,
-            offset: 120
-        })
+            offset: 120,
+            once: false,
+        });
     })
+    
     return (
         <section className='Hero'>
             <div className='t-wrap'>
@@ -18,9 +20,6 @@ const Hero = () => {
                 <p data-aos='fade-up' data-aos-delay="100">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, perspiciatis.
                 </p>
-
-
-
             </div>
         </section>
     )
