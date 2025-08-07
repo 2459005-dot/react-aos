@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './style/Hero.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import image from '../assets/images.png'
 
 const Hero = () => {
 
@@ -12,7 +13,7 @@ const Hero = () => {
             once: false,
         });
     })
-    
+
     return (
         <section className='Hero'>
             <div className='t-wrap'>
@@ -20,6 +21,7 @@ const Hero = () => {
                 <p data-aos='fade-up' data-aos-delay="100">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, perspiciatis.
                 </p>
+                <img src={image} alt="image" />
             </div>
         </section>
     )

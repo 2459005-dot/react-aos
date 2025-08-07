@@ -28,4 +28,5 @@ section:nth-child(even) {
 
 .t-wrap p {
   max-width: 50%;
+  margin: 30px 0;
 }
